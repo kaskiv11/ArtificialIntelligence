@@ -5,7 +5,7 @@ import math
 # Task 2 Lab1
 
 #  %%-----------------------------------------
-p = np.linspace(start=-5, stop=100, num=5)
+p = np.linspace(start=-5, stop=5, num=100)
 
 
 #  %%-----------------------------------------
@@ -14,7 +14,7 @@ def hardlim(n):
 
 
 def dhardlim(n):
-    return 1 - (pow(math.tan(n), 2))
+    return np.where(n >= 0.0, 0, 0)
 
 
 # np.where(n >= 0.0, 0, 0)

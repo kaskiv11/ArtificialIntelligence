@@ -1,5 +1,5 @@
 import numpy as np
-import math
+
 
 
 def logsig(x):
@@ -16,7 +16,7 @@ x = np.linspace(-5, 5, 10)
 p = logsig(x)
 r = dlogsign(x)
 
-plt.title('Logsing(blue), dlogsign(read)')
+plt.title('Logsing(blue), dlogsign(red)')
 plt.xlabel("x")
 plt.ylabel("Sigmoid(x)")
 plt.plot(x, p)

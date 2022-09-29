@@ -1,13 +1,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import math
-
-
 def softmax(x):
     e_x = np.exp(x - np.max(x))
     return e_x / e_x.sum(axis=0)
-
-
 def figure():
     scores = [0, 1.0, -0.5, 0.5]
     s = softmax(scores)

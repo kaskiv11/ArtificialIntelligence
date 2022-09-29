@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #  %%-----------------------------------------
-p = np.linspace(start=-5, stop=5, num=100)
+p = np.linspace(start=-10, stop=10, num=50)
 
 
 #  %%-----------------------------------------
